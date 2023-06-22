@@ -22,7 +22,7 @@ export class SongsEditComponent implements OnInit{
     this.song = {
       idSong: this.idReceived ?? 0,
       name: '',
-      categorie:''
+      artist:''
     }
 
     if (this.idReceived) {
